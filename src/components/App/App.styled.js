@@ -11,8 +11,8 @@ export const Container = styled.div`
 `;
 
 export const Picture = styled.img`
-  width: 300px;
-  heigth: 400px;
+  width: 250px;
+  height: 400px;
 `;
 
 export const MainInfo = styled.div``;
@@ -22,9 +22,9 @@ export const Header = styled.div`
 `;
 
 export const Footer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-  color: white;
-  margin-top: 20px;
+  // display: flex;
+  // justify-content: space-around;
+  // background-color: black;
+  // color: white;
+  // margin-top: 20px;
 `;

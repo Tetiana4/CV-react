@@ -1,13 +1,13 @@
-import { Summary } from '../Summary';
+import { Route, Routes } from 'react-router-dom';
+import  Summary    from '../../views/Summary/Summary';
 import { TechSkills } from '../TechSkills';
+import Experience from '../../views/Experience'
 import { SoftSkills } from '../SoftSkills';
-import { Education } from '../Education';
-import { Experience } from '../Experience';
-import { Container, Picture, Footer } from './App.styled';
-import photo from '../../images/picture.jpg';
-import { Contacts } from '../Contacts';
-import { Header, MainInfo, MainContainer } from './App.styled';
 import { Name } from '../Name';
+import { Navigation } from '../Navigation';
+import { Contacts } from '../Contacts';
+import photo from '../../images/picture.jpg';
+import { Header, MainInfo, MainContainer, Container, Picture } from './App.styled';
 
 export const App = () => {
   return (
@@ -23,11 +23,11 @@ export const App = () => {
           </Header>
         </MainInfo>
       </Container>
-      <Footer>
-        <Summary />
-        <Experience />
-        <Education />
-      </Footer>
+      <Navigation />
+      <Routes>
+          <Route path="/" element={<Summary />} />
+          <Route path="experience" element={<Summary />} />
+        </Routes>
     </MainContainer>
   );
 };
