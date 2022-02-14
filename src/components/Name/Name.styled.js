@@ -7,4 +7,5 @@ export const Title = styled.h1`
 export const Position = styled.h2`
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin: 0;
 `;

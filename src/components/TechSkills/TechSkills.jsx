@@ -1,20 +1,22 @@
-import {List, Item, Title} from './TechSkills.styled'
+import { List, Item, Title } from './TechSkills.styled';
+
 const data = [
-  'HTML5/CSS3',
   'JavaScript Es6',
   'React.js',
-  'React router',
-  'redux',
+  'React Router',
+  'Redux Toolkit',
   'Parcel/Webpack',
   'REST API',
   'NPM',
+  'Git',
   'Node.js',
+  'Next.js(in progress)'
 ];
 
 export const TechSkills = () => {
   return (
     <List>
-      <Title>TechSkills</Title>
+      <Title>Technical Skills</Title>
       {data.map(item => {
         return <Item>{item}</Item>;
       })}

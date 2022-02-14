@@ -1,21 +1,34 @@
-import {List, Item, Title} from './SoftSkills.styled'
+import { List, Item, Title } from './SoftSkills.styled';
 
 const data = [
-  'Conflict resolution',
   'Creative Thinking',
   'Problem Solving',
   'Communication',
   'Teamwork',
-  'Passion'
 ];
+
+const lenguage = [
+  'Polish – intermediate',
+  'English – intermediate (in progress)',
+  'Ukrainian – native',
+  'Russian – native',
+];
+
+
+const getData = (data) => {
+  const result =  data.map((item) => {
+    return <Item>{item}</Item>;
+  })
+  return result
+}
 
 export const SoftSkills = () => {
   return (
     <List>
-      <Title>SoftSkills</Title>
-      {data.map(item => {
-        return <Item>{item}</Item>;
-      })}
+      <Title>Soft Skills</Title>
+      {getData(data)}
+      <Title>Languages</Title>
+      {getData(lenguage)}
     </List>
   );
 };
