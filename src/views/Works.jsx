@@ -1,4 +1,7 @@
-import { Card, Title, List } from './views.styled';
+import { 
+  ImLocation,  
+} from 'react-icons/im';
+import { Card, Title, List, ListTitle } from './views.styled';
 
 const data = [
   {
@@ -6,9 +9,9 @@ const data = [
     position: 'Shop Manager',
     period: '2019-2021 ',
     info: [
+        'Motivating employees to reach sales goals and provide excellent customer service',
         'Managing and accounting for all money-handling procedures',
         'Ordering, recording, and managing inventory',
-      'Motivating employees to reach sales goals and provide excellent customer service',
     ],
   },
   {
@@ -34,9 +37,10 @@ export const Works = () => {
   return data.map(item => (
     <Card>
       <Title>{item.place}</Title>
+      <p><ImLocation/>Warsaw</p>
       <p>{item.position}</p>
           <p>{item.period}</p>
-          {getResponsibility(item.info)}
+          <ListTitle>Responsibilities: </ListTitle>{getResponsibility(item.info)}
     </Card>
   ));
 };

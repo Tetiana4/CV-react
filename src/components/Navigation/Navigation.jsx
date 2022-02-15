@@ -11,12 +11,12 @@ export const Navigation = () => {
       {isDesktop && (
         <Container>
           <NavLinkStyles to="/">Summary</NavLinkStyles>
-          <NavLinkStyles to="/projects">Project Experience</NavLinkStyles>
-          <NavLinkStyles exact to="/education">
-            Education
-          </NavLinkStyles>
+          <NavLinkStyles to="/projects">Project Experience</NavLinkStyles>          
           <NavLinkStyles exact to="/experience">
             Work Experience
+          </NavLinkStyles>
+          <NavLinkStyles exact to="/education">
+            Education
           </NavLinkStyles>
         </Container>
       )}
@@ -25,11 +25,12 @@ export const Navigation = () => {
         <ContainerMobile>
           <NavLinkStylesMob to="/">Summary</NavLinkStylesMob>
           <NavLinkStylesMob to="/projects">Project Experience</NavLinkStylesMob>
-          <NavLinkStylesMob exact to="/education">
-            Education
-          </NavLinkStylesMob>
+          
           <NavLinkStylesMob exact to="/experience">
             Work Experience
+          </NavLinkStylesMob>
+          <NavLinkStylesMob exact to="/education">
+            Education
           </NavLinkStylesMob>
         </ContainerMobile>
       )}

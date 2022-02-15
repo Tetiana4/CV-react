@@ -1,39 +1,44 @@
 import { ImLink } from 'react-icons/im';
-import { Card, Link, Title } from './views.styled';
+import { Card, Link, LinkName } from './views.styled';
 
 const projectArray = [
   {
     name: 'Phone Book',
-    role: 'my own project with redux, react and Java Script',
+    role: 'react, redax, redax toolkhit and java script',
     link: 'phonebook.netlify.app',
-    href: 'https://tetiana-goit-react-hw-08-phonebook.netlify.app/',
+    page: 'https://tetiana-goit-react-hw-08-phonebook.netlify.app/',
+    href: 'https://github.com/Tetiana4/goit-react-hw-08-phonebook',
   },
   {
-    name: 'Hellen',
-    role: 'section "Our program"',
+    name: 'Kapu$ta',
+    role: 'react, redux in  modal window, section "Statistic"',
     link: 'team-project',
-    href: 'https://bogdanbon.github.io/team-project/',
+    page: 'https://project-smart-finance.netlify.app/',
+    href: 'https://github.com/vmorgunov/project-smart-finance-frontend',
   },
   {
     name: 'Filmoteka',
-    role: 'dynamic page pagination with Java Script',
+    role: 'dynamic page pagination with java script',
     link: 'team-project',
-    href: 'https://bogdanbon.github.io/team-project-JS/',
+    page: 'https://bogdanbon.github.io/team-project-JS/',
+    href: 'https://github.com/BogdanBon/team-project-JS',
   },
-
   {
-    name: 'Kapu$ta',
-    role: 'Modal window, Statistic section',
+    name: 'Hellen',
+    role: 'html5, css4 in section "Our program"',
     link: 'team-project',
-    href: 'https://project-smart-finance.netlify.app/',
+    page: 'https://bogdanbon.github.io/team-project/',
+    href: 'https://github.com/BogdanBon/team-project',
   },
 ];
 
 export const Experience = () => {
   return projectArray.map(item => (
     <Card>
-      <Title>{item.name}</Title>
-      <p>{item.role}</p>
+      <LinkName target="_blank" href={item.page}>
+        <ImLink /> {item.name}
+      </LinkName>
+      <p>Technologies: {item.role}</p>
       <Link target="_blank" href={item.href}>
         <ImLink /> {item.link}
       </Link>
