@@ -33,7 +33,7 @@ export const Contacts = () => {
         <ImLinkedin /> LinkedIn
       </Link>
       <Link target="_blank" href="https://github.com/Tetiana4">
-        <ImGithub /> CitHub
+        <ImGithub /> GitHub
       </Link>
       <Link target="_blank" href="https://join.skype.com/invite/DIoRVMW30XcA">      
         <ImSkype /> Skype
