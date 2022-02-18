@@ -12,10 +12,10 @@ export const Navigation = () => {
         <Container>
           <NavLinkStyles to="/">Summary</NavLinkStyles>
           <NavLinkStyles to="/projects">Project Experience</NavLinkStyles>          
-          <NavLinkStyles exact to="/experience">
+          <NavLinkStyles to="/experience">
             Work Experience
           </NavLinkStyles>
-          <NavLinkStyles exact to="/education">
+          <NavLinkStyles to="/education">
             Education
           </NavLinkStyles>
         </Container>
@@ -26,10 +26,10 @@ export const Navigation = () => {
           <NavLinkStylesMob to="/">Summary</NavLinkStylesMob>
           <NavLinkStylesMob to="/projects">Project Experience</NavLinkStylesMob>
           
-          <NavLinkStylesMob exact to="/experience">
+          <NavLinkStylesMob to="/experience">
             Work Experience
           </NavLinkStylesMob>
-          <NavLinkStylesMob exact to="/education">
+          <NavLinkStylesMob to="/education">
             Education
           </NavLinkStylesMob>
         </ContainerMobile>

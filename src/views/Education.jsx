@@ -20,8 +20,8 @@ const data = [
 export const Education = () => {
   return (
     <>
-      {data.map(item => (
-        <Card>
+      {data.map((item, index) => (
+        <Card key={index}>
           <Title>{item.position}</Title>
           <p>{item.period}</p>
           <Link target="_blank" href={item.href}><ImLink/> {item.place}</Link>
