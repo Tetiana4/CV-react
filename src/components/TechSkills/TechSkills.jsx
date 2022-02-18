@@ -1,4 +1,4 @@
-import { List, Item, Title } from './TechSkills.styled';
+import { List, Title } from './TechSkills.styled';
 
 const data = [
   'JavaScript Es6',
@@ -10,16 +10,18 @@ const data = [
   'NPM',
   'Git',
   'Node.js',
-  'Next.js(in progress)'
+  'Next.js(in progress)',
 ];
 
 export const TechSkills = () => {
   return (
-    <List>
+    <div>
       <Title>Technical Skills</Title>
-      {data.map(item => {
-        return <Item>{item}</Item>;
-      })}
-    </List>
+      {data.map((item, index)=> (
+        <List key={index}>
+          <li>{item}</li>
+        </List>
+      ))}
+    </div>
   );
 };

@@ -29,7 +29,7 @@ const data = [
 
 function getResponsibility(info) {
     return info.map((el) => (
-        <List>{el}</List>
+        <List key={info.index}>{el}</List>
     ))
 }
 
