@@ -1,8 +1,8 @@
 import { List, Item, Title } from './SoftSkills.styled';
 
 const data = [
-  'Creative Thinking',
-  'Problem Solving',
+  'Creative thinking',
+  'Problem solving',
   'Communication',
   'Teamwork',
 ];
