@@ -2,13 +2,13 @@ import { ImLink } from 'react-icons/im';
 import { Card, Link, LinkName } from './views.styled';
 
 const projectArray = [
-  {
-    name: 'Phone Book',
-    role: 'react, redax, redax toolkhit and java script',
-    link: 'phonebook.netlify.app',
-    page: 'https://tetiana-goit-react-hw-08-phonebook.netlify.app/',
-    href: 'https://github.com/Tetiana4/goit-react-hw-08-phonebook',
-  },
+  // {
+  //   name: 'Phone Book',
+  //   role: 'react, redax, redax toolkhit and java script',
+  //   link: 'phonebook.netlify.app',
+  //   page: 'https://tetiana-goit-react-hw-08-phonebook.netlify.app/',
+  //   href: 'https://github.com/Tetiana4/goit-react-hw-08-phonebook',
+  // },
   {
     name: 'Kapu$ta',
     role: 'react, redux in  modal window, section "Statistic"',

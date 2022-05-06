@@ -24,7 +24,7 @@ export const Contacts = () => {
         +38 099 226-38-79
       </Link>
       <Link target="_blank" href="mailto:shevchuktetiana4@gmail.com">
-        <ImMail4 /> tetiana@gmail.com
+        <ImMail4 /> shevchuktetiana4@gmail.com
       </Link>
       <Link
         target="_blank"
