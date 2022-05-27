@@ -14,12 +14,11 @@ import {
   Picture,
   SkillsStyle,
   ContainerMobile,
-  Box
+  Box,
 } from './App.styled';
 
-
 export const App = () => {
-  const isDesktop = useMediaQuery({ minWidth: 1160});
+  const isDesktop = useMediaQuery({ minWidth: 1160 });
   const isTablet = useMediaQuery({ minWidth: 760, maxWidth: 1159 });
   const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 769 });
 
