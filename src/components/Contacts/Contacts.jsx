@@ -17,11 +17,11 @@ export const Contacts = () => {
       </Item>
       <Link href="tel:+48697339400">
         <ImMobile />
-        +48 697-33-94-00
+        +48 697-33-94-00 (WhatsApp, Telegram)
       </Link>
       <Link href="tel:+380992263879">
         <ImMobile />
-        +38 099 226-38-79
+        +38 099 226-38-79 (Viber)
       </Link>
       <Link target="_blank" href="mailto:shevchuktetiana4@gmail.com">
         <ImMail4 /> shevchuktetiana4@gmail.com
@@ -35,7 +35,7 @@ export const Contacts = () => {
       <Link target="_blank" href="https://github.com/Tetiana4">
         <ImGithub /> GitHub
       </Link>
-      <Link target="_blank" href="https://join.skype.com/invite/DIoRVMW30XcA">      
+      <Link target="_blank" href="https://join.skype.com/invite/DIoRVMW30XcA">
         <ImSkype /> Skype
       </Link>
     </ContactBox>
