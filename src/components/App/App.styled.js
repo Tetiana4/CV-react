@@ -14,7 +14,8 @@ export const Container = styled.div`
 export const Picture = styled.img`
   width: 250px;
   height: 380px;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 15px 7px 15px black;
+  border-radius: 10px;
 `;
 
 export const Header = styled.div`

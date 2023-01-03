@@ -9,18 +9,17 @@ const data = [
 
 const lenguage = [
   'Polish – intermediate',
-  'English – intermediate (in progress)',
+  'English – intermediate',
   'Ukrainian – native',
   'Russian – native',
 ];
 
-
-const getData = (data) => {
-  const result =  data.map((item) => {
+const getData = data => {
+  const result = data.map(item => {
     return <Item>{item}</Item>;
-  })
-  return result
-}
+  });
+  return result;
+};
 
 export const SoftSkills = () => {
   return (

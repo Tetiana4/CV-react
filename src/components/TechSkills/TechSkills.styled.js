@@ -6,6 +6,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li``;
+
 export const Title = styled.h3`
   margin: 10px 0 5px;
 `;

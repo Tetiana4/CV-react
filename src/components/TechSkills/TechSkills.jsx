@@ -10,7 +10,6 @@ const data = [
   'NPM',
   'Git',
   'Node.js',
-  'Next.js(in progress)'
 ];
 
 export const TechSkills = () => {

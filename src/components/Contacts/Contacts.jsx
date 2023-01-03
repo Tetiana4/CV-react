@@ -13,7 +13,7 @@ export const Contacts = () => {
     <ContactBox>
       <Title>Contacts</Title>
       <Item>
-        <ImLocation /> Warsaw (ready to move)
+        <ImLocation /> Warsaw 
       </Item>
       <Link href="tel:+48697339400">
         <ImMobile />
