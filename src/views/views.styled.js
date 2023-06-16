@@ -25,7 +25,7 @@ export const Link = styled.a`
   font-weight: bold;
 
   &:hover {
-    color: black;
+    color: grey;
   }
 `;
 
@@ -41,8 +41,10 @@ export const List = styled.div`
 
 export const LinkName = styled.a`
   text-decoration: none;
-  color: black;
   text-transform: uppercase;
   font-weight: bold;
-  color: black;
+  color: inherit;
+  &:hover {
+    color: grey;
+  }
 `;

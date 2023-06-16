@@ -1,0 +1,26 @@
+.main {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.switch {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  margin-right: 5px;
+}
+
+#light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+#dark {
+  background-color: rgb(8, 8, 8);
+  color: rgb(250, 246, 246);
+}
