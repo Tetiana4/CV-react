@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const Picture = styled.img`
   width: 250px;
   height: 380px;
-  box-shadow: 15px 7px 15px black;
+  box-shadow: 15px 7px 5px grey;
   border-radius: 10px;
 `;
 
